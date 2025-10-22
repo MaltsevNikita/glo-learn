@@ -12,10 +12,10 @@ export const ToDoList = ( props: { todos: ToDo[], updateToDo: Function, deleteTo
                 .map((item,idx) => {
                     return(
                         <ToDoListItem 
-                        toDoItem={item} 
-                        key={idx}
-                        updateToDo={props.updateToDo}
-                        deleteToDo={props.deleteToDo}
+                            toDoItem={item} 
+                            key={idx}
+                            updateToDo={props.updateToDo}
+                            deleteToDo={props.deleteToDo}
                         />
                     )
                 })
